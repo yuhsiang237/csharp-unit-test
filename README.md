@@ -15,7 +15,7 @@ public void MethodsTest()
 {
     // 準備 Mock IFoo 介面
     var mock = new Mock<IFoo>();
-    // 配置準備模擬的方法，當呼叫介面中的 DoSomething 方法，並傳遞引數 "ing" 的時候，返回 true
+    // 配置準備模擬的方法，當呼叫介面中的 DoSomething 方法，並傳遞引數 "ping" 的時候，返回 true
     mock.Setup(foo => foo.DoSomething("ping")).Returns(true);
     // 現在，你可以: 
     IFoo foo = mock.Object;
