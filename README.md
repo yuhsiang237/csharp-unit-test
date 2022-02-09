@@ -6,3 +6,7 @@
 
 ### Test Output
 <img src="assets/output.png"/>
+
+### 參考資料
+- https://github.com/Moq/moq4/wiki/Quickstart#verification
+- https://xunit.net/  
